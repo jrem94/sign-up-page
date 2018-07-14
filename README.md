@@ -1,2 +1,2 @@
 # sign-up-page
-an event sign-up web page
+This is a simple event sign-ip page.
