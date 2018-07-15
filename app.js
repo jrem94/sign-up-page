@@ -1,7 +1,12 @@
-let emailInput = document.getElementById('#collection');
+const getButton = document.getElementById("submit");
+let userEmail = document.getElementById("userEmail");
 
-document.querySelector('div.active-form').addEventListener('button', function(value) {
+getButton.addEventListener("click", () => {
 
-    console.log(nameInput.value); 
+    userEmail = userEmail.value;
+
+    console.log(userEmail);
+
+    alert("Singed up as " + userEmail + "!");
+
 });
-

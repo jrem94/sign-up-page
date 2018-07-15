@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <title>My Sign Up</title>
-    <script src="app.js"></script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,13 +16,14 @@
 
       <div class="col-lg-6 mx-auto">
           <div class="input-group mb-3 active-form">
-              <input id="collection" type="text" class="form-control" placeholder="Your email" aria-label="email" aria-describedby="basic-addon2">
+              <input type="text" id="userEmail" class="form-control" placeholder="Your email" aria-label="email" aria-describedby="basic-addon2">
               <div class="input-group-append">
-                  <button class="btn btn-secondary" type="button">Sign up</button>
+                  <button id="submit" class="btn btn-secondary" type="button">Sign up</button>
               </div>
           </div>
       </div>
     </div>
-
+        <script src="app.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
   </body>
 </html>
